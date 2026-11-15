@@ -1,0 +1,12 @@
+INSTALLATION (SAFE / ADDITIVE)
+
+Copy ONLY these two paths into the ROOT of the existing GitHub repository:
+  .github/workflows/ejst-scholar-audit.yml
+  tools/ejst_scholar_audit.py
+
+Commit and push to branch main. Then open GitHub > Actions > EJST Google Scholar Technical Audit.
+The audit runs on each push, manually, and weekly (Monday 05:17 UTC).
+Download the Markdown report from the run's Artifacts section.
+
+DO NOT replace or delete sitemap.xml, robots.txt, articles/, assets/, data/, issues/, or index.html.
+The bot is read-only and does not submit articles to Google Scholar.
