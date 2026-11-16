@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://ejst-journal.github.io/sitemap.xml

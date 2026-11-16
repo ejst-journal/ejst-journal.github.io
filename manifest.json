@@ -1,10 +1,24 @@
 {
-  "volume": 6,
-  "year": 2026,
-  "issues": 4,
-  "article_count": 28,
-  "pdf_count": 28,
-  "abstracts_extracted": 28,
-  "keywords_extracted": 28,
-  "article_pages": 28
+  "volumes": 3,
+  "issues": 12,
+  "articles": 97,
+  "pdfs": 97,
+  "article_pages": 97,
+  "issue_counts": {
+    "2024-issue-1": 6,
+    "2024-issue-2": 7,
+    "2024-issue-3": 10,
+    "2024-issue-4": 10,
+    "2025-issue-1": 10,
+    "2025-issue-2": 10,
+    "2025-issue-3": 8,
+    "2025-issue-4": 8,
+    "2026-issue-1": 8,
+    "2026-issue-2": 7,
+    "2026-issue-3": 7,
+    "2026-issue-4": 6
+  },
+  "volume4_issue3_pages": "165-287",
+  "volume4_issue4_pages": "288-400",
+  "doi_prefix": "https://doi.org/10.48309/"
 }
