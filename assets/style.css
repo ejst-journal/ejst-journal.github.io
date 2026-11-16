@@ -14,6 +14,10 @@
   --ejst-shadow:0 14px 36px rgba(16,42,67,.08);
 }
 *{box-sizing:border-box}
+/* EJST is an English-language journal: keep the site LTR by default. */
+html,body{direction:ltr;text-align:left}
+/* Persian snippets may opt in to RTL without affecting the rest of the site. */
+[lang="fa"],[lang="fa"] *{direction:rtl;text-align:right}
 html{scroll-behavior:smooth;scroll-padding-top:24px}
 body{
   margin:0;
@@ -25,6 +29,7 @@ body{
   -webkit-font-smoothing:antialiased;
 }
 a{color:#1d5c82;text-decoration:none;transition:color .18s ease,background .18s ease,border-color .18s ease}
+a:visited{color:#315f7c}
 a:hover{color:#a87927;text-decoration:none}
 a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid rgba(198,154,69,.55);outline-offset:3px}
 .top{
@@ -67,14 +72,15 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid rgba(
   display:flex;align-items:center;gap:5px;flex-wrap:wrap;
   border-top:1px solid rgba(255,255,255,.14)
 }
-.main-nav a{
+.main-nav a,.main-nav a:link,.main-nav a:visited{
   display:inline-flex;align-items:center;min-height:48px;
-  padding:0 17px;color:#e8eff5;font-size:13px;font-weight:700;
+  padding:0 17px;color:#f2f6fa;font-size:13px;font-weight:700;
   border-bottom:3px solid transparent
 }
-.main-nav a:hover,.main-nav a:focus-visible{
+.main-nav a:hover,.main-nav a:focus-visible,.main-nav a:active{
   color:#fff;background:rgba(255,255,255,.07);border-bottom-color:var(--ejst-gold)
 }
+.main-nav a:visited:hover{color:#fff}
 .wrap{width:min(1180px,calc(100% - 40px));margin:30px auto 54px;padding:0}
 .welcome{
   position:relative;isolation:isolate;overflow:hidden;
