@@ -1,0 +1,15 @@
+EJST archive build validation
+{
+  "article_pages": 97,
+  "pdf_files": 97,
+  "issue_pages": 12,
+  "html_pages_checked": 110,
+  "missing_local_links": 0,
+  "doi_links_missing_full_prefix": 0,
+  "assets": [
+    "assets/ejst-logo.jpg",
+    "assets/EJST Repository Academic Emblem.png",
+    "assets/ejst-repository-emblem.png"
+  ],
+  "homepage_issn": "2783-3135"
+}

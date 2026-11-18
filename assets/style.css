@@ -251,3 +251,96 @@ img{max-width:100%;height:auto}
 
 /* Journal e-ISSN displayed in the header */
 .brand-copy .journal-issn{display:inline-block;margin:10px 0 0;padding:4px 10px;color:#f4dfb4;background:rgba(255,255,255,.08);border:1px solid rgba(214,177,105,.48);border-radius:6px;font-size:12px;font-weight:800;letter-spacing:.045em}
+
+
+/* ==========================================================
+   EJST unified article page — shared layout for Volumes 4–6
+   Uses the approved EJST visual-refresh palette above.
+   ========================================================== */
+.article-top{
+  position:relative;isolation:isolate;overflow:hidden;
+  padding:18px max(4vw,22px) 21px;
+  color:#fff;
+  background:linear-gradient(118deg,#0c2338 0%,#123653 56%,#1b4c69 100%);
+  box-shadow:0 8px 28px rgba(11,35,56,.16)
+}
+.article-top:before,.article-top:after{
+  content:"";position:absolute;z-index:-1;pointer-events:none;
+  border:1px solid rgba(225,190,119,.2);border-radius:50%
+}
+.article-top:before{width:350px;height:350px;right:-115px;top:-250px}
+.article-top:after{width:230px;height:230px;right:-55px;top:-170px}
+.article-top-inner{width:min(1120px,100%);margin:0 auto;position:relative;z-index:1}
+.article-breadcrumb{margin:0 0 15px;color:#d5e1ea;font-size:12px;line-height:1.5}
+.article-breadcrumb a,.article-breadcrumb a:visited{color:#e3edf4;text-decoration:none}
+.article-breadcrumb a:hover{color:#f1d89e}
+.article-top h1{
+  max-width:1120px;margin:0 0 13px;color:#fff;
+  font:700 clamp(22px,2.35vw,30px)/1.28 Inter,"Segoe UI",Roboto,Arial,sans-serif;
+  letter-spacing:-.015em
+}
+.article-authors{margin:0;color:#e0eaf1;font-size:14px;line-height:1.55}
+.article-main{width:min(944px,calc(100% - 36px));margin:24px auto 48px}
+.article-card{
+  padding:22px 24px 24px;background:var(--ejst-paper);
+  border:1px solid var(--ejst-line);border-radius:17px;
+  box-shadow:var(--ejst-shadow)
+}
+.article-back-top{
+  display:inline-flex;align-items:center;min-height:32px;margin:0 0 12px;padding:6px 11px;
+  color:#53697a!important;background:#fff;border:1px solid var(--ejst-line);
+  border-radius:5px;font-size:12px;text-decoration:none
+}
+.article-back-top:hover{color:#a87927!important;border-color:#d3bd91}
+.article-metadata{
+  display:flex;flex-wrap:wrap;align-items:center;gap:7px 20px;
+  margin:0 0 15px;color:#536476;font-size:13px;line-height:1.6
+}
+.article-metadata span{min-width:0}
+.article-metadata strong{color:#273746}
+.article-metadata a,.article-metadata a:visited{color:#536476;overflow-wrap:anywhere}
+.article-metadata a:hover{color:#a87927}
+.article-section-heading{
+  margin:12px 0 11px;color:var(--ejst-navy);
+  font:600 27px/1.25 Georgia,"Times New Roman",serif
+}
+.article-abstract{
+  margin:0;color:#3f4d59;font-size:14px;line-height:1.75;
+  overflow-wrap:anywhere
+}
+.article-keywords{
+  margin-top:20px;padding-top:14px;border-top:1px solid #edf1f4
+}
+.article-keywords h2{
+  margin:0 0 9px;color:#273746;
+  font:700 16px/1.4 Inter,"Segoe UI",Roboto,Arial,sans-serif
+}
+.article-keywords p{margin:0;color:#475766;font-size:14px;line-height:1.65}
+.article-actions{display:flex;flex-wrap:wrap;align-items:center;gap:9px;margin-top:17px}
+.article-actions .btn{margin:0;min-height:39px}
+.article-actions .btn.article-return{
+  color:var(--ejst-navy)!important;background:#edf3f7;
+  border:1px solid #dce6ed;box-shadow:none
+}
+.article-actions .btn.article-return:hover{background:#e3edf3;border-color:#c9d8e2}
+.article-bottom-nav{
+  display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;
+  margin-top:20px;padding-top:13px;border-top:1px solid #edf1f4;
+  color:var(--ejst-muted);font-size:12px
+}
+.article-bottom-nav strong{color:#526779}
+.article-bottom-nav a,.article-bottom-nav a:visited{
+  display:inline-flex;padding:5px 8px;color:#53697a;
+  border:1px solid #e5ebef;border-radius:5px;text-decoration:none
+}
+.article-bottom-nav a:hover{color:#a87927;border-color:#d3bd91}
+@media(max-width:620px){
+  .article-top{padding:17px 18px 20px}
+  .article-breadcrumb{margin-bottom:13px}
+  .article-main{width:calc(100% - 22px);margin:14px auto 30px}
+  .article-card{padding:18px 16px 20px;border-radius:13px}
+  .article-metadata{display:block}
+  .article-metadata span{display:block;margin:4px 0}
+  .article-section-heading{font-size:25px}
+  .article-bottom-nav{gap:7px}
+}
