@@ -344,3 +344,14 @@ img{max-width:100%;height:auto}
   .article-section-heading{font-size:25px}
   .article-bottom-nav{gap:7px}
 }
+/* Improve archive breadcrumb contrast on all issue pages */
+.top small a,
+.top small a:link,
+.top small a:visited {
+    color: #dce8f2 !important;
+    opacity: 1;
+}
+
+.top small {
+    color: #ffffff;
+}
