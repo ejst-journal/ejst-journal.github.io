@@ -1,0 +1,42 @@
+EJST archive title and author correction report
+================================================
+
+Source archive: EJST_archive_final_with_replaced_1131.zip
+Correction baseline: EJST_archive_corrected_titles.zip
+Final archive: EJST_archive_corrected_titles_verified.zip
+
+Scope
+-----
+Seven issue pages were reviewed: Volume 4 Issues 1, 3, and 4; Volume 5 Issues 1, 2, 3, and 4. All 62 article cards in those issue pages were checked against their corresponding article-detail pages and the title printed on the first page of the linked PDF.
+
+Title corrections
+-----------------
+1. Volume 4, Issue 3, Article 3: restored the complete title in the Issue card; the article-detail page already contained the full title.
+2. Volume 4, Issue 3, Article 10: restored the complete title in the Issue card, article-detail H1, and HTML title metadata.
+
+Author corrections
+------------------
+The following article-detail pages and matching Issue-card author lists were corrected to include the complete author names shown on the linked PDF first page:
+- Volume 4, Issue 1: Articles 4 and 6.
+- Volume 4, Issue 3: Articles 1, 2, and 4; Article 3 card author list was synchronized with its complete article-detail author list.
+- Volume 4, Issue 4: Articles 7 and 9.
+- Volume 5, Issue 1: Article 10.
+- Volume 5, Issue 2: Article 8.
+- Volume 5, Issue 3: Articles 2, 6, and 7.
+- Volume 5, Issue 4: Article 3.
+
+Validation
+----------
+- All 62 Issue-card titles match their corresponding article-detail H1 titles.
+- All 62 article titles were found in the first-page text of their linked PDFs.
+- The 15 corrected article author lists were checked against the author lines in the corresponding PDFs.
+- All seven issue pages were checked for synchronization between card titles/authors and article-detail titles/authors.
+- All 97 PDFs are byte-for-byte unchanged from the correction baseline.
+- All DOI links in the seven issue pages retain the full 10.48309/ DOI prefix.
+- ZIP integrity test passed; 250 unique archive entries are present.
+
+Source-archive limitation
+-------------------------
+Volume 4, Issue 1 contains six article records in the supplied source archive. There is no seventh article record in that Issue page, so no Article 7 was invented or added.
+
+No PDF, filename, DOI target, or unrelated archive asset was changed.

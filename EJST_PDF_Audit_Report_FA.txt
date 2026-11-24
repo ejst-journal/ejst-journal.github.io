@@ -1,0 +1,76 @@
+گزارش بازبینی کامل مخزن EJST بر اساس PDF
+
+مبنای کنترل: ۹۷ فایل PDF موجود در مخزن. عنوان، نویسندگان، چکیده، کلیدواژه‌ها، DOI، جلد/شماره و بازه صفحات در صفحات HTML و کارت‌های Issue با PDF متناظر مقایسه شد.
+
+نتیجه کنترل نهایی:
+• ۹۷ فایل PDF بررسی شد و هیچ PDF تغییر نکرد.
+• ۹۷ صفحه اختصاصی مقاله با PDF متناظر تطبیق داده شد.
+• ۱۲ صفحه Issue و ۹۷ کارت مقاله در آن‌ها بررسی و همگام شد.
+• در کنترل نهایی، مغایرتی در عنوان، نویسندگان، چکیده، کلیدواژه‌ها، DOI، جلد/شماره و صفحات باقی نماند.
+• سلامت ZIP بررسی شد و آزمون یکپارچگی بدون خطا بود.
+
+تعداد عنوان‌های اصلاح‌شده در صفحه اختصاصی مقاله: 2
+تعداد عنوان‌های اصلاح‌شده در کارت‌های Issue: 5
+تعداد صفحه‌های نویسندگان که اطلاعاتشان اصلاح شد: 14
+تعداد چکیده‌های اصلاح‌شده: 9
+تعداد بازه‌صفحات اصلاح‌شده: 9
+
+عنوان‌های اصلاح‌شده در صفحات اختصاصی مقاله:
+• ejst-2024-423518-1108.html
+  عنوان PDF: Adsorption Monitoring of Triflouroaceticacid, Pentadecyl Ester and Pentadecanoic Acid, 14-Methyl-, Methyl Ester on Fe (110): using DFT and Molecular Simulation
+• ejst-2024-423429-1107.html
+  عنوان PDF: Revisiting on Applications of Industrial Filters in Enhancing Polymer Product Quality and Performance
+
+عنوان‌های اصلاح‌شده در کارت‌های Issue:
+• volume-4-issue-2.html — ejst-2024-418888-1100.html
+  عنوان PDF: Isolation and Characterization of Oil Obtained from Leucaena Leucocephala (Lam.) De Wit
+• volume-4-issue-2.html — ejst-2024-423473-1106.html
+  عنوان PDF: Evaluation of the Potential Health Effects Resulting from Radon Exposure via Groundwater in Keffi, Nigeria
+• volume-4-issue-2.html — ejst-2024-423518-1108.html
+  عنوان PDF: Adsorption Monitoring of Triflouroaceticacid, Pentadecyl Ester and Pentadecanoic Acid, 14-Methyl-, Methyl Ester on Fe (110): using DFT and Molecular Simulation
+• volume-4-issue-2.html — ejst-2024-423429-1107.html
+  عنوان PDF: Revisiting on Applications of Industrial Filters in Enhancing Polymer Product Quality and Performance
+• volume-4-issue-2.html — ejst-2024-416374-1091.html
+  عنوان PDF: Unleashing the Potential of Machine Learning in Chalcogen Bonding Research
+
+بازه صفحات اصلاح‌شده:
+• ejst-2024-457095-1141.html: Pages: 394-400 ← Pages: 366-372
+• ejst-2024-449519-1134.html: Pages: 306-311 ← Pages: 289-294
+• ejst-2024-457091-1139.html: Pages: 348-356 ← Pages: 331-339
+• ejst-2024-444677-1133.html: Pages: 312-319 ← Pages: 295-302
+• ejst-2024-444334-1130.html: Pages: 320-347 ← Pages: 303-330
+• ejst-2024-450751-1135.html: Pages: 357-371 ← Pages: 340-354
+• ejst-2024-437223-1128.html: Pages: 288-299 ← Pages: 271-282
+• ejst-2024-458125-1143.html: Pages: 383-393 ← Pages: 373-383
+• ejst-2024-453710-1137.html: Pages: 372-382 ← Pages: 355-365
+
+صفحات مقاله‌ای که فهرست نویسندگان آن‌ها با PDF تکمیل/اصلاح شد:
+• ejst-2024-423518-1108.html
+• ejst-2024-416374-1091.html
+• ejst-2024-422419-1105.html
+• ejst-2024-457095-1141.html
+• ejst-2024-423473-1106.html
+• ejst-2026-568396-1296.html
+• ejst-2024-429200-1118.html
+• ejst-2025-457099-1142.html
+• ejst-2026-563723-1288.html
+• ejst-2025-533141-1255.html
+• ejst-2025-493311-1198.html
+• ejst-2025-463450-1166.html
+• ejst-2024-418589-1097.html
+• ejst-2024-423429-1107.html
+
+صفحات مقاله‌ای که چکیده آن‌ها از متن PDF اصلاح شد:
+• ejst-2026-556765-1281.html
+• ejst-2025-526718-1248.html
+• ejst-2025-499892-1206.html
+• ejst-2026-545126-1264.html
+• ejst-2025-515578-1242.html
+• ejst-2025-501994-1211.html
+• ejst-2024-437223-1128.html
+• ejst-2025-500036-1207.html
+• ejst-2026-550990-1271.html
+
+نکته ویژه: فایل ejst.2026.556765.1281.pdf در متن Citation بازه صفحات ندارد؛ با توجه به شماره صفحه آغازین ۸۴ و ۱۲ صفحه PDF، بازه ۸۴ تا ۹۵ درج شد. صفحه آخر PDF شماره ۹۵ را نشان می‌دهد.
+یک URL قدیمی تکراری با نام ejst-2023-417300-1093.html که PDF مستقل و فراداده جداگانه نداشت، به صفحه اصلی مقاله متناظر در سال ۲۰۲۴ هدایت می‌شود.
+فایل‌های PDF در خروجی عیناً با نسخه مبدأ یکسان هستند.
