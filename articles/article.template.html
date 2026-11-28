@@ -3,44 +3,62 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>[ARTICLE_TITLE] | EJST</title>
-  <link rel="stylesheet" href="../assets/style.css">
+  <title>[ARTICLE_TITLE] | Eurasian Journal of Science and Technology</title>
+  <link rel="canonical" href="https://ejst-journal.github.io/articles/[ARTICLE_HTML_FILENAME].html">
+  <meta name="description" content="[ARTICLE_DESCRIPTION]">
+
+  <!-- Google Scholar citation metadata
+       Replace every placeholder with the values for THIS article.
+       Repeat citation_author once for every author; do not limit the list to two authors. -->
   <meta name="citation_title" content="[ARTICLE_TITLE]">
   <meta name="citation_author" content="[AUTHOR_1]">
-  <meta name="citation_author" content="[AUTHOR_2]">
-  <meta name="citation_publication_date" content="2027">
+  <!-- Add one citation_author meta tag for each additional author. -->
+  <meta name="citation_publication_date" content="[PUBLICATION_YEAR]">
   <meta name="citation_journal_title" content="Eurasian Journal of Science and Technology">
-  <meta name="citation_volume" content="7">
-  <meta name="citation_issue" content="1">
+  <meta name="citation_volume" content="[VOLUME]">
+  <meta name="citation_issue" content="[ISSUE]">
   <meta name="citation_firstpage" content="[FIRST_PAGE]">
   <meta name="citation_lastpage" content="[LAST_PAGE]">
-  <meta name="citation_doi" content="10.48309/ejst.2027.[DOI_SUFFIX]">
+  <meta name="citation_doi" content="[FULL_DOI_WITHOUT_URL_PREFIX]">
   <meta name="citation_pdf_url" content="https://ejst-journal.github.io/assets/pdf/[PDF_FILENAME].pdf">
+  <meta name="citation_language" content="en">
+  <meta name="citation_abstract" content="[ARTICLE_ABSTRACT]">
+  <meta name="citation_keywords" content="[ARTICLE_KEYWORDS]">
+
+  <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
-  <main class="container">
-    <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="../index.html">EJST Archive</a> / <a href="../issues/volume-7-issue-1-2027.html">Volume 7 / Issue 1</a>
-    </nav>
+  <header class="article-top">
+    <div class="article-top-inner">
+      <nav aria-label="Breadcrumb" class="article-breadcrumb">
+        <a href="../index.html">EJST Archive</a> / Volume [VOLUME] / Issue [ISSUE]
+      </nav>
+      <h1>[ARTICLE_TITLE]</h1>
+      <p class="article-authors">[AUTHOR_1]; [AUTHOR_2]; [ADD_ALL_OTHER_AUTHORS]</p>
+    </div>
+  </header>
 
-    <h1>[ARTICLE_TITLE]</h1>
-    <p class="authors">[AUTHOR_1]; [AUTHOR_2]</p>
-
-    <nav class="breadcrumb" aria-label="Article navigation">
-      <a href="../index.html">Archive home</a> / <a href="../issues/volume-7-issue-1-2027.html">Issue 1</a>
-    </nav>
-
-    <p class="pages">Pages: [PAGE_RANGE_OR_IN_PRESS]</p>
-    <p class="doi">DOI: <a href="https://doi.org/10.48309/ejst.2027.[DOI_SUFFIX]">10.48309/ejst.2027.[DOI_SUFFIX]</a></p>
-
-    <h2>Abstract</h2>
-    <p>[ABSTRACT_TEXT]</p>
-
-    <h2>Keywords</h2>
-    <p>[KEYWORD_1], [KEYWORD_2], [KEYWORD_3]</p>
-
-    <p><a href="../assets/pdf/[PDF_FILENAME].pdf">Download full-text PDF</a></p>
-    <p><a href="../issues/volume-7-issue-1-2027.html">Back to Issue 1</a></p>
+  <main class="article-main">
+    <article class="article-card">
+      <a class="article-back-top" href="../issues/[ISSUE_HTML_FILENAME].html">Archive home / Issue [ISSUE]</a>
+      <div class="article-metadata">
+        <span><strong>Volume: </strong>[VOLUME] ([PUBLICATION_YEAR]), Issue [ISSUE]</span>
+        <span><strong>Pages: </strong>[FIRST_PAGE]-[LAST_PAGE]</span>
+        <span><strong>DOI: </strong><a href="https://doi.org/[FULL_DOI_WITHOUT_URL_PREFIX]">[FULL_DOI_WITHOUT_URL_PREFIX]</a></span>
+      </div>
+      <section aria-labelledby="abstract-heading">
+        <h2 class="article-section-heading" id="abstract-heading">Abstract</h2>
+        <p class="article-abstract">[ARTICLE_ABSTRACT]</p>
+      </section>
+      <section aria-labelledby="keywords-heading" class="article-keywords">
+        <h2 id="keywords-heading">Keywords</h2>
+        <p>[ARTICLE_KEYWORDS]</p>
+      </section>
+      <div class="article-actions">
+        <a class="btn article-download" href="../assets/pdf/[PDF_FILENAME].pdf">Download full-text PDF</a>
+        <a class="btn article-return" href="../issues/[ISSUE_HTML_FILENAME].html">Back to issue contents</a>
+      </div>
+    </article>
   </main>
 </body>
 </html>
